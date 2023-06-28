@@ -28,7 +28,7 @@ public class Main {
         for (Employee employee : employees) {
             employee.FullInformationEmployee();
         }
-        salaryUp(employees, 5000);
+        Manager.salaryUp(employees, 5000);
         System.out.println();
 
         for (Employee employee : employees) {
